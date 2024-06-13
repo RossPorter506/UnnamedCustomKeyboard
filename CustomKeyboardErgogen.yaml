@@ -1,0 +1,175 @@
+units:
+  kx: cx
+  ky: cy
+  px: kx + 4
+  py: ky + 4
+points:
+  zones:
+    matrix:
+      anchor:
+        rotate: 5
+        shift: [100, -100]
+      columns:
+        pinky-extra:
+          key.column_net: P7
+          rows:
+            numbers:
+              skip: true
+            extra_bottom:
+              skip: true
+            
+        pinky:
+          key.column_net: P8
+          key.stagger: 2
+          key.splay: -3
+          key.origin: [-50, -10]
+          rows:
+            extra_bottom:
+              skip: true
+        ring:
+          key.column_net: P9
+          key.splay: -3
+          key.origin: [-12, -19]
+          key.stagger: 20
+        middle:
+          key.column_net: P10
+          key.stagger: 10
+          key.splay: -2
+        index:
+          key.column_net: P11
+          key.stagger: -15
+          key.splay: -2
+        index-extra:
+          key.column_net: P12
+          key.stagger: 0
+          key.splay: -3
+          key.origin: [0, -10]
+          rows:
+            numbers:
+              skip: true
+            extra_bottom:
+              skip: true
+
+      rows:
+        bottom:
+          row_net: P1
+        home:
+          row_net: P2
+        top:
+          row_net: P3
+    thumbfan:
+      anchor:
+        ref: matrix_middle_bottom
+        shift: [0, -55]
+      columns:
+        under_middle:
+          key.column_net: P10
+          key.splay: -1
+          rows: 
+            extra:
+              row_net: P4
+        under_index:
+          key.column_net: P10
+          rows: 
+            extra:
+              row_net: P4
+        near:
+          key.column_net: P11
+          key.stagger: 9.5
+          key.height: 2cx
+        home:
+          key.column_net: P12
+          key.height: 2cx
+          key.spread: 19.5
+          key.splay: -6
+          key.shift: [1, -1]
+        far:
+          key.column_net: P13
+          key.shift: [5, 2]
+          key.spread: 17.5
+          key.splay: -25
+          key.stagger: 2
+
+      rows:
+        thumb:
+          row_net: P5
+  rotate: -20
+  #mirror:
+  #  ref: matrix_pinky_home
+  #  distance: 220
+outlines:
+  keys:
+    - what: rectangle
+      where: true
+      size: [cx, cy]
+  outline:
+    - what: polygon
+      operation: stack
+      fillet: 2
+      points:
+        - ref: thumbfan_far_thumb
+          shift: [0.5px, -0.5py]
+        - ref: thumbfan_home_thumb
+          shift: [0.5px, -1py]
+        - ref: thumbfan_under_middle_thumb
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_pinky-extra_bottom
+          shift: [-0.5px, -0.5py]
+        - ref: matrix_pinky-extra_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_ring_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_middle_top
+          shift: [-0.5px, 0.5py]
+        - ref: matrix_middle_top
+          shift: [0.5px, 0.5py]
+        - ref: matrix_index-extra_top
+          shift: [1px, 0.5py]
+        - ref: thumbfan_far_thumb
+          shift: [0.5px, 0.5py]
+  outline_switch_cutout:
+    - name: outline
+    - operation: subtract
+      name: keys
+pcbs:
+  main_pcb:
+    outlines:
+      main:
+        outline: outline
+    footprints:
+      mx_hotswap_backlit:
+        what: mx
+        where: true
+        params:
+          keycaps: true
+          reverse: true
+          hotswap: true
+          from: "{{column_net}}"
+          to: "{{colrow}}"
+        adjust:
+          rotate: 180
+      diode:
+        what: diode
+        where: true
+        params:
+          from: "{{colrow}}"
+          to: "{{row_net}}"
+        adjust:
+          shift: [-7.5, 4]
+          rotate: -90
+      rgb_led:
+        what: rgb
+        where: true
+        params:
+          din: P21
+          dout: P21
+        adjust:
+          shift: [0, 5.25]
+      promicro:
+        what: promicro
+        params:
+          orientation: "down"
+        where:
+          ref: matrix_index_bottom
+          shift: [2.25cx,0.5cx]
+          rotate: 266
