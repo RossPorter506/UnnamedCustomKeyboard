@@ -11,36 +11,65 @@ points:
         shift: [100, -100]
       columns:
         pinky-extra:
-          key.column_net: P7
+          key.column_net: P6
           rows:
             numbers:
               skip: true
             extra_bottom:
               skip: true
-            
+          rows.bottom.key.led_prev: LED12
+          rows.bottom.key.led_next: LED13
+          rows.home.key.led_prev: LED13
+          rows.home.key.led_next: LED14
+          rows.top.key.led_prev: LED24
+          rows.top.key.led_next: LED25
         pinky:
-          key.column_net: P8
+          key.column_net: P7
           key.stagger: 2
           key.splay: -3
           key.origin: [-50, -10]
           rows:
             extra_bottom:
               skip: true
+          rows.bottom.key.led_prev: LED11
+          rows.bottom.key.led_next: LED12
+          rows.home.key.led_prev: LED14
+          rows.home.key.led_next: LED15
+          rows.top.key.led_prev: LED23
+          rows.top.key.led_next: LED24
         ring:
-          key.column_net: P9
+          key.column_net: P16
           key.splay: -3
           key.origin: [-12, -19]
           key.stagger: 20
+          rows.bottom.key.led_prev: LED10
+          rows.bottom.key.led_next: LED11
+          rows.home.key.led_prev: LED15
+          rows.home.key.led_next: LED16
+          rows.top.key.led_prev: LED22
+          rows.top.key.led_next: LED23
         middle:
           key.column_net: P10
           key.stagger: 10
           key.splay: -2
+          rows.bottom.key.led_prev: LED9
+          rows.bottom.key.led_next: LED10
+          rows.home.key.led_prev: LED16
+          rows.home.key.led_next: LED17
+          rows.top.key.led_prev: LED21
+          rows.top.key.led_next: LED22
         index:
-          key.column_net: P11
+          key.column_net: P21
           key.stagger: -15
           key.splay: -2
+          rows.bottom.key.led_prev: LED8
+          rows.bottom.key.led_next: LED9
+          rows.home.key.led_prev: LED17
+          rows.home.key.led_next: LED18
+          rows.top.key.led_prev: LED20
+          rows.top.key.led_next: LED21
         index-extra:
-          key.column_net: P12
+          key.column_net: P0
           key.stagger: 0
           key.splay: -3
           key.origin: [0, -10]
@@ -49,14 +78,20 @@ points:
               skip: true
             extra_bottom:
               skip: true
+          rows.bottom.key.led_prev: LED7
+          rows.bottom.key.led_next: LED8
+          rows.home.key.led_prev: LED18
+          rows.home.key.led_next: LED19
+          rows.top.key.led_prev: LED19
+          rows.top.key.led_next: LED20
 
       rows:
         bottom:
-          row_net: P1
+          row_net: P20
         home:
           row_net: P2
         top:
-          row_net: P3
+          row_net: P1
     thumbfan:
       anchor:
         ref: matrix_middle_bottom
@@ -67,32 +102,51 @@ points:
           key.splay: -1
           rows: 
             extra:
-              row_net: P4
+              row_net: P8
+          rows.thumb.key.led_prev: LED4
+          rows.thumb.key.led_next: LED5
+
+          rows.extra.key.led_prev: LED5
+          rows.extra.key.led_next: LED6
         under_index:
-          key.column_net: P10
+          key.column_net: P21
           rows: 
             extra:
-              row_net: P4
+              row_net: P8
+          
+          rows.thumb.key.led_prev: LED3
+          rows.thumb.key.led_next: LED4
+          rows.extra.key.led_prev: LED6
+          rows.extra.key.led_next: LED7
         near:
-          key.column_net: P11
+          key.column_net: P0
           key.stagger: 9.5
           key.height: 2cx
+
+          rows.thumb.key.led_prev: LED2
+          rows.thumb.key.led_next: LED3
         home:
-          key.column_net: P12
+          key.column_net: P5
           key.height: 2cx
           key.spread: 19.5
           key.splay: -6
           key.shift: [1, -1]
+
+          rows.thumb.key.led_prev: LED1
+          rows.thumb.key.led_next: LED2
         far:
-          key.column_net: P13
+          key.column_net: P3
           key.shift: [5, 2]
           key.spread: 17.5
           key.splay: -25
           key.stagger: 2
 
+          rows.thumb.key.led_prev: P9
+          rows.thumb.key.led_next: LED1
+
       rows:
         thumb:
-          row_net: P5
+          row_net: P4
   rotate: -20
   #mirror:
   #  ref: matrix_pinky_home
@@ -161,8 +215,8 @@ pcbs:
         what: rgb
         where: true
         params:
-          din: P21
-          dout: P21
+          din: "{{key.led_prev}}"
+          dout: "{{key.led_next}}"
         adjust:
           shift: [0, 5.25]
       promicro:
