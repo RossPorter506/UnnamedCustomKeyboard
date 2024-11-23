@@ -1,0 +1,1187 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d423cb46-cdae-47ba-a0ca-4d304ccf369b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_MEC_5G"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S?"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_MEC_5G"
+				(at -0.254 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:MX"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5G single pole normally-open tactile switch"
+				(at 0 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5G_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(hierarchical_label "V_LED"
+		(shape passive)
+		(at 148.59 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2839f68e-b503-416a-addf-47733da8243b")
+	)
+	(hierarchical_label "SW_in"
+		(shape input)
+		(at 140.97 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "453385b7-d9a0-4287-9e3c-453d0c2d25cb")
+	)
+	(hierarchical_label "SW_out"
+		(shape output)
+		(at 158.75 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77fe9504-168d-4708-bd02-6eb682ad783f")
+	)
+	(hierarchical_label "Dout"
+		(shape output)
+		(at 156.21 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8253bbe6-7229-4356-a709-2ea7e3b1304f")
+	)
+	(hierarchical_label "Din"
+		(shape input)
+		(at 140.97 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8942601a-c1f3-403e-8b12-63fd1d5e552e")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 148.59 50.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "989f2f92-bac1-438f-88b3-71342117ad0d")
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 148.59 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1660726d-5460-4136-b451-8de87fb15e3b")
+		(property "Reference" "LED?"
+			(at 157.226 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 156.718 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:WS2812B"
+			(at 149.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 151.13 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0619e138-4b66-4f57-993a-48a4417e8a8a")
+		)
+		(pin "4"
+			(uuid "899acb21-dcf6-4798-9ee6-5855d4a33880")
+		)
+		(pin "2"
+			(uuid "ba1649a4-207c-429d-95e5-71954fe69f90")
+		)
+		(pin "1"
+			(uuid "11e1d47a-144d-48c6-8b96-c25611a39d73")
+		)
+		(instances
+			(project "switch"
+				(path "/d423cb46-cdae-47ba-a0ca-4d304ccf369b"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/10035dd4-eabf-4590-b86a-1db46e52f1e1"
+					(reference "LED22")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/19e67e30-eee7-413c-a515-c14637076af2"
+					(reference "LED4")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/1d4ab643-102e-4513-9a21-b07fbfdd2f85"
+					(reference "LED1")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/2a16dbac-5b24-4825-bc36-d0886ea3bd0d"
+					(reference "LED11")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/2e0a95a1-6143-425d-9046-b2543b037b03"
+					(reference "LED18")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/317d09b1-f37c-4141-9a95-4e03a8c70ee1"
+					(reference "LED21")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/4dfe4803-1d5e-4487-8ed3-6acaa698cf98"
+					(reference "LED6")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/5c1b738a-2392-4302-b35f-74bdf2e3eb3e"
+					(reference "LED10")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/6630d46a-e009-4a90-ac3e-a6ef9ab05e60"
+					(reference "LED19")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/6dc0b91b-0666-4206-a586-90e6b90a3b57"
+					(reference "LED24")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/7219c6c8-69b7-4588-8f68-dfc548ce45df"
+					(reference "LED3")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/724203df-d182-46c6-bcdb-093047962693"
+					(reference "LED13")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/7810e701-b3e0-4ded-9e5b-dffedbd25094"
+					(reference "LED9")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/843c5544-eaa4-4024-a97e-cdf35ac4c66b"
+					(reference "LED7")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/9aea1048-f1c1-4506-9bab-57a98d965df1"
+					(reference "LED15")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/a028f94b-567a-42d7-b771-5423044ed3f1"
+					(reference "LED17")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/a8153b2e-8bf7-4f0c-af52-94826b07bbfa"
+					(reference "LED14")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/bee95022-2af3-4631-9b47-9878c7fda7d2"
+					(reference "LED25")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/cc4263e8-3cbf-4239-8eb0-ad9d8e65849f"
+					(reference "LED8")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/cca06321-3d11-4827-9766-25cbb9eb5e3c"
+					(reference "LED23")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/cf8849e8-8182-4125-948f-5d7a87c81652"
+					(reference "LED12")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/e984a7ed-947a-409f-9fe1-138e328973db"
+					(reference "LED20")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/ee42cc22-46da-45ff-9347-408e0e6862ea"
+					(reference "LED16")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/f40cf9d0-88b5-4cad-9c24-f1e174e59acd"
+					(reference "LED2")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/fc9a6440-c88e-4429-b555-06b023ef8503"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 154.94 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6efc6212-ab7c-4504-bec4-48c932f33d76")
+		(property "Reference" "D?"
+			(at 154.94 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:ComboDiode"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efdf12d4-61bb-4898-b288-1a5c247c7dae")
+		)
+		(pin "1"
+			(uuid "17ec5ee4-490f-4a7c-bf9b-987f3ba97004")
+		)
+		(instances
+			(project "switch"
+				(path "/d423cb46-cdae-47ba-a0ca-4d304ccf369b"
+					(reference "D?")
+					(unit 1)
+				)
+			)
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/10035dd4-eabf-4590-b86a-1db46e52f1e1"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/19e67e30-eee7-413c-a515-c14637076af2"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/1d4ab643-102e-4513-9a21-b07fbfdd2f85"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/2a16dbac-5b24-4825-bc36-d0886ea3bd0d"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/2e0a95a1-6143-425d-9046-b2543b037b03"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/317d09b1-f37c-4141-9a95-4e03a8c70ee1"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/4dfe4803-1d5e-4487-8ed3-6acaa698cf98"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/5c1b738a-2392-4302-b35f-74bdf2e3eb3e"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/6630d46a-e009-4a90-ac3e-a6ef9ab05e60"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/6dc0b91b-0666-4206-a586-90e6b90a3b57"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/7219c6c8-69b7-4588-8f68-dfc548ce45df"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/724203df-d182-46c6-bcdb-093047962693"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/7810e701-b3e0-4ded-9e5b-dffedbd25094"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/843c5544-eaa4-4024-a97e-cdf35ac4c66b"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/9aea1048-f1c1-4506-9bab-57a98d965df1"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/a028f94b-567a-42d7-b771-5423044ed3f1"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/a8153b2e-8bf7-4f0c-af52-94826b07bbfa"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/bee95022-2af3-4631-9b47-9878c7fda7d2"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/cc4263e8-3cbf-4239-8eb0-ad9d8e65849f"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/cca06321-3d11-4827-9766-25cbb9eb5e3c"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/cf8849e8-8182-4125-948f-5d7a87c81652"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/e984a7ed-947a-409f-9fe1-138e328973db"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/ee42cc22-46da-45ff-9347-408e0e6862ea"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/f40cf9d0-88b5-4cad-9c24-f1e174e59acd"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/fc9a6440-c88e-4429-b555-06b023ef8503"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 146.05 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86d2bc97-d499-41ae-b102-a5c504277ca4")
+		(property "Reference" "S?"
+			(at 146.05 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 145.796 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:MX"
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 146.05 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a295d56c-7ba4-4529-b340-eb42627e6ada")
+		)
+		(pin "1"
+			(uuid "14409a22-8258-4f1b-a9f1-2998beedddff")
+		)
+		(instances
+			(project "switch"
+				(path "/d423cb46-cdae-47ba-a0ca-4d304ccf369b"
+					(reference "S?")
+					(unit 1)
+				)
+			)
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/10035dd4-eabf-4590-b86a-1db46e52f1e1"
+					(reference "S22")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/19e67e30-eee7-413c-a515-c14637076af2"
+					(reference "S4")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/1d4ab643-102e-4513-9a21-b07fbfdd2f85"
+					(reference "S1")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/2a16dbac-5b24-4825-bc36-d0886ea3bd0d"
+					(reference "S11")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/2e0a95a1-6143-425d-9046-b2543b037b03"
+					(reference "S18")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/317d09b1-f37c-4141-9a95-4e03a8c70ee1"
+					(reference "S21")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/4dfe4803-1d5e-4487-8ed3-6acaa698cf98"
+					(reference "S6")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/5c1b738a-2392-4302-b35f-74bdf2e3eb3e"
+					(reference "S10")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/6630d46a-e009-4a90-ac3e-a6ef9ab05e60"
+					(reference "S19")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/6dc0b91b-0666-4206-a586-90e6b90a3b57"
+					(reference "S24")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/7219c6c8-69b7-4588-8f68-dfc548ce45df"
+					(reference "S3")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/724203df-d182-46c6-bcdb-093047962693"
+					(reference "S13")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/7810e701-b3e0-4ded-9e5b-dffedbd25094"
+					(reference "S9")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/843c5544-eaa4-4024-a97e-cdf35ac4c66b"
+					(reference "S7")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/9aea1048-f1c1-4506-9bab-57a98d965df1"
+					(reference "S15")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/a028f94b-567a-42d7-b771-5423044ed3f1"
+					(reference "S17")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/a8153b2e-8bf7-4f0c-af52-94826b07bbfa"
+					(reference "S14")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/bee95022-2af3-4631-9b47-9878c7fda7d2"
+					(reference "S25")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/cc4263e8-3cbf-4239-8eb0-ad9d8e65849f"
+					(reference "S8")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/cca06321-3d11-4827-9766-25cbb9eb5e3c"
+					(reference "S23")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/cf8849e8-8182-4125-948f-5d7a87c81652"
+					(reference "S12")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/e984a7ed-947a-409f-9fe1-138e328973db"
+					(reference "S20")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/ee42cc22-46da-45ff-9347-408e0e6862ea"
+					(reference "S16")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/f40cf9d0-88b5-4cad-9c24-f1e174e59acd"
+					(reference "S2")
+					(unit 1)
+				)
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de/fc9a6440-c88e-4429-b555-06b023ef8503"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
