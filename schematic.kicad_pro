@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.5,
-          "width": 2.55
+          "height": 1.2,
+          "width": 2.0
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "shorting_items|53409508|108709783|19014680-2051-4f84-a929-cb18ac67ce0d|d11ea2bf-e31d-478e-8fa4-e2dfb01e5187",
-        "shorting_items|58028436|107577910|14e90d4b-1664-4fa8-a588-d30d923ee0f1|198d735d-62d5-40b7-b13b-6638592238a6"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -89,7 +86,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
