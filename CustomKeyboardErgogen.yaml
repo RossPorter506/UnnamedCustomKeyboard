@@ -156,10 +156,10 @@ outlines:
     - what: rectangle
       where: true
       size: [cx, cy]
-  outline:
+  outline_raw:
     - what: polygon
       operation: stack
-      fillet: 2
+      fillet: 14
       points:
         - ref: thumbfan_far_thumb
           shift: [0.5px, -0.5py]
@@ -181,6 +181,10 @@ outlines:
           shift: [1px, 0.5py]
         - ref: thumbfan_far_thumb
           shift: [0.5px, 0.5py]
+  outline:
+    - name: outline_raw
+      operation: add
+      expand: 3
   outline_switch_cutout:
     - name: outline
     - operation: subtract
