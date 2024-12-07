@@ -58,7 +58,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|202772296|137832677|23f316b5-5d25-46f2-9a56-423831d35c0c|8ad9833c-4469-48e1-a06f-abb7575f509b",
+        "silk_edge_clearance|202772296|137832677|23f316b5-5d25-46f2-9a56-423831d35c0c|a6d5579b-2e7c-49b4-88b1-b3552be526d7",
+        "solder_mask_bridge|113555000|132550000|77d3139b-aede-48ff-ad3d-15e3f1a59af3|98f011d0-ae86-4db5-84ed-56a74da885bd",
+        "solder_mask_bridge|115180007|132251099|77d3139b-aede-48ff-ad3d-15e3f1a59af3|98f011d0-ae86-4db5-84ed-56a74da885bd",
+        "solder_mask_bridge|115181667|132499999|77d3139b-aede-48ff-ad3d-15e3f1a59af3|98f011d0-ae86-4db5-84ed-56a74da885bd"
+      ],
       "meta": {
         "version": 2
       },
@@ -119,7 +125,7 @@
         "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.127,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.0,
         "min_microvia_diameter": 0.0,
         "min_microvia_drill": 0.0,
