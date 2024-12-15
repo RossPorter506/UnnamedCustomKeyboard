@@ -259,4 +259,26 @@
 		(roundrect_rratio 0.25)
 		(uuid "952d451b-d2de-4c3a-b50b-f2c01ae0c9b1")
 	)
+	(model "${KIPRJMOD}/KicadLibraries/footprints.pretty/Kaihl CPG151101S11.step"
+		(offset
+			(xyz -0.65 3.8 -1.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 180)
+		)
+	)
+	(model "${KIPRJMOD}/KicadLibraries/footprints.pretty/asm_mx_asm_PCB.stp"
+		(offset
+			(xyz 0.3 0.3 5.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 -90)
+		)
+	)
 )
