@@ -63,7 +63,8 @@
         "silk_edge_clearance|202772296|137832677|23f316b5-5d25-46f2-9a56-423831d35c0c|a6d5579b-2e7c-49b4-88b1-b3552be526d7",
         "solder_mask_bridge|113555000|132550000|77d3139b-aede-48ff-ad3d-15e3f1a59af3|98f011d0-ae86-4db5-84ed-56a74da885bd",
         "solder_mask_bridge|115180007|132251099|77d3139b-aede-48ff-ad3d-15e3f1a59af3|98f011d0-ae86-4db5-84ed-56a74da885bd",
-        "solder_mask_bridge|115181667|132499999|77d3139b-aede-48ff-ad3d-15e3f1a59af3|98f011d0-ae86-4db5-84ed-56a74da885bd"
+        "solder_mask_bridge|115181667|132499999|77d3139b-aede-48ff-ad3d-15e3f1a59af3|98f011d0-ae86-4db5-84ed-56a74da885bd",
+        "text_thickness|198500000|128250000|86eade90-7669-4767-a8fa-12d3b2565b44|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
