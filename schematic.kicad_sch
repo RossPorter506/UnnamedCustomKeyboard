@@ -4395,17 +4395,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 30.48) (xy 17.78 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 3 116 255 1)
-		)
-		(uuid "b3285e9f-f3fc-48fe-a577-8dccccf21d8b")
-	)
-	(wire
-		(pts
 			(xy 97.79 185.42) (xy 100.33 185.42)
 		)
 		(stroke
@@ -5685,17 +5674,6 @@
 			(justify left bottom)
 		)
 		(uuid "8f2adba1-8954-4f8a-af54-3d4f4b66b0da")
-	)
-	(label "NC"
-		(at 17.78 30.48 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "925cc6bc-c46c-4be1-9570-dd7fd42f9981")
 	)
 	(label "P2"
 		(at 96.52 172.72 0)
