@@ -2061,6 +2061,126 @@
 				)
 			)
 		)
+		(symbol "R_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2920,6 +3040,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 146.05) (xy 278.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0558a6f1-ee54-45a0-8cfb-6e9fd9b7d920")
+	)
+	(wire
+		(pts
 			(xy 99.06 162.56) (xy 100.33 162.56)
 		)
 		(stroke
@@ -3191,6 +3321,16 @@
 			(type default)
 		)
 		(uuid "1ee3d64b-0b7b-4a14-bf43-fee563cb1b06")
+	)
+	(wire
+		(pts
+			(xy 274.32 156.21) (xy 274.32 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9691a9-494b-4cb8-8a42-f72b82e08a5c")
 	)
 	(wire
 		(pts
@@ -3539,6 +3679,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 156.21) (xy 278.13 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e7a56f-90a3-4540-8cdd-be96a3bfccf4")
+	)
+	(wire
+		(pts
 			(xy 116.84 125.73) (xy 119.38 125.73)
 		)
 		(stroke
@@ -3608,6 +3758,16 @@
 			(type default)
 		)
 		(uuid "4f976a0d-1c1e-48ad-9888-4f5b0629f207")
+	)
+	(wire
+		(pts
+			(xy 266.7 146.05) (xy 266.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ffd946a-302d-46ae-9a4f-51d544c2395e")
 	)
 	(wire
 		(pts
@@ -3734,6 +3894,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 146.05) (xy 262.89 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba7e82d-c565-45bd-a016-54732bc4c588")
+	)
+	(wire
+		(pts
 			(xy 146.05 74.93) (xy 146.05 66.04)
 		)
 		(stroke
@@ -3835,6 +4005,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 156.21) (xy 281.94 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69adb3b9-b7a2-45c1-b5b2-2866420004c2")
+	)
+	(wire
+		(pts
 			(xy 210.82 125.73) (xy 212.09 125.73)
 		)
 		(stroke
@@ -3895,6 +4075,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 156.21) (xy 259.08 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7067a3f0-f0db-4339-97e3-d0b901db3702")
+	)
+	(wire
+		(pts
 			(xy 116.84 24.13) (xy 119.38 24.13)
 		)
 		(stroke
@@ -3913,6 +4103,16 @@
 			(color 3 116 255 1)
 		)
 		(uuid "7345b38c-9645-4747-8abe-217aabe49a7e")
+	)
+	(wire
+		(pts
+			(xy 274.32 146.05) (xy 274.32 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755bcfcb-a646-4bcb-a5b5-ebe2b6f1016a")
 	)
 	(wire
 		(pts
@@ -4212,6 +4412,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 146.05) (xy 281.94 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f9c6285-683e-4fa9-b73f-bf1baa1947e2")
+	)
+	(wire
+		(pts
 			(xy 212.09 24.13) (xy 212.09 15.24)
 		)
 		(stroke
@@ -4229,6 +4439,16 @@
 			(type default)
 		)
 		(uuid "a2183633-4070-4180-85ae-243d3afbd334")
+	)
+	(wire
+		(pts
+			(xy 259.08 146.05) (xy 259.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a237d793-24cd-4614-be13-83dbaa8aba5b")
 	)
 	(wire
 		(pts
@@ -4351,6 +4571,16 @@
 			(type default)
 		)
 		(uuid "ad5a27b5-7abe-4de7-9d0d-f7263908aae6")
+	)
+	(wire
+		(pts
+			(xy 255.27 156.21) (xy 255.27 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbf9492-e53b-4386-85df-0bf4f600a781")
 	)
 	(wire
 		(pts
@@ -4487,6 +4717,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 156.21) (xy 266.7 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd082578-08ae-4e7f-a2a7-03c34da85e6e")
+	)
+	(wire
+		(pts
 			(xy 219.71 80.01) (xy 210.82 80.01)
 		)
 		(stroke
@@ -4579,6 +4819,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 156.21) (xy 270.51 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9aac878-15fc-41a8-96fa-a8ca1d082b8c")
+	)
+	(wire
+		(pts
 			(xy 46.99 74.93) (xy 46.99 66.04)
 		)
 		(stroke
@@ -4586,6 +4836,16 @@
 			(type default)
 		)
 		(uuid "ca6c91ce-0e7c-4e06-ac8e-192498f83a8e")
+	)
+	(wire
+		(pts
+			(xy 255.27 146.05) (xy 255.27 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca909f1e-11c3-4fea-956e-cba3f302b69f")
 	)
 	(wire
 		(pts
@@ -4699,6 +4959,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 156.21) (xy 262.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc98d78-aff9-44eb-bdb8-0b5f5157f3fa")
+	)
+	(wire
+		(pts
 			(xy 44.45 180.34) (xy 44.45 182.88)
 		)
 		(stroke
@@ -4757,6 +5027,16 @@
 			(type default)
 		)
 		(uuid "e055f072-dc7f-46c0-88d7-609048a14ef7")
+	)
+	(wire
+		(pts
+			(xy 270.51 146.05) (xy 270.51 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53ca9b2-c3f1-4d45-a816-b445c7fd8942")
 	)
 	(wire
 		(pts
@@ -4952,6 +5232,18 @@
 		(uuid "fe60853f-2c89-4c6b-93f3-5124f0e24300")
 	)
 	(rectangle
+		(start 252.73 140.97)
+		(end 284.48 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0a443515-d440-4f05-bdea-cb34db942222)
+	)
+	(rectangle
 		(start 74.93 156.21)
 		(end 134.62 195.58)
 		(stroke
@@ -4964,8 +5256,8 @@
 		(uuid 6dd5b529-ba60-4c29-b571-6b6e78aac388)
 	)
 	(rectangle
-		(start 176.53 143.51)
-		(end 251.46 163.83)
+		(start 176.53 144.78)
+		(end 251.46 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -5029,7 +5321,17 @@
 		)
 		(uuid "594dd4d6-0d82-4f62-b54a-5bd30b2aa203")
 	)
-	(text "Master <-> Slave Plug\nData lines are I2C, not USB"
+	(text "External pullups"
+		(exclude_from_sim no)
+		(at 276.098 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "807c798e-2914-4c3c-a67b-e455a54d2620")
+	)
+	(text "Master <-> Slave Plug\nData lines are UART/I2C, not USB"
 		(exclude_from_sim no)
 		(at 40.64 138.43 0)
 		(effects
@@ -5041,7 +5343,7 @@
 	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
-		(at 215.138 142.494 0)
+		(at 215.138 143.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5071,7 +5373,7 @@
 		(uuid "00565423-e7e0-4cf5-adb8-fad516a6ebe5")
 	)
 	(label "P7"
-		(at 201.93 151.13 0)
+		(at 201.93 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5103,6 +5405,17 @@
 		)
 		(uuid "085c68c0-4427-4437-961a-f9c99b114b9d")
 	)
+	(label "P20"
+		(at 266.7 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b9523a6-dee4-4ee5-8800-84c37f6ac236")
+	)
 	(label "LED5"
 		(at 114.3 118.11 270)
 		(fields_autoplaced yes)
@@ -5126,7 +5439,7 @@
 		(uuid "10154840-a7e1-4373-96a9-d850a24dc2bb")
 	)
 	(label "P21"
-		(at 218.44 151.13 90)
+		(at 218.44 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5137,7 +5450,7 @@
 		(uuid "13ec2123-cf51-49df-935f-cdddb479cc1a")
 	)
 	(label "Vraw"
-		(at 247.65 151.13 90)
+		(at 247.65 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5313,7 +5626,7 @@
 		(uuid "41d90912-5f79-4518-a8d1-831c361d0ed7")
 	)
 	(label "P0"
-		(at 180.34 151.13 0)
+		(at 180.34 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5322,6 +5635,17 @@
 			(justify bottom)
 		)
 		(uuid "43e8167e-5a3f-4cad-b83a-dfeac97489eb")
+	)
+	(label "Vcc"
+		(at 255.27 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4681f2e6-c610-43ca-9179-6395cf2466be")
 	)
 	(label "LED8"
 		(at 180.34 80.01 270)
@@ -5334,6 +5658,17 @@
 		)
 		(uuid "47e9ea57-eb4e-466a-839e-20518ee58dd7")
 	)
+	(label "P23"
+		(at 274.32 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "490251b4-0534-4160-b406-7af577520409")
+	)
 	(label "LED10"
 		(at 114.3 80.01 270)
 		(fields_autoplaced yes)
@@ -5344,6 +5679,28 @@
 			(justify right bottom)
 		)
 		(uuid "4ebf900e-8ed4-49f2-94b1-f25793565709")
+	)
+	(label "Vcc"
+		(at 281.94 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ed08307-0c7c-4610-81b2-c740fbdeed76")
+	)
+	(label "Vcc"
+		(at 262.89 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "505160fd-82fa-4590-92ec-0573c0241e5a")
 	)
 	(label "LED"
 		(at 278.13 130.81 0)
@@ -5357,7 +5714,7 @@
 		(uuid "50cda5b0-5332-41ea-a8e7-7d51a1919eba")
 	)
 	(label "P27"
-		(at 234.95 151.13 90)
+		(at 234.95 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5401,7 +5758,7 @@
 		(uuid "54f4e7c2-bade-48d6-a2ee-2deb2147ec10")
 	)
 	(label "P26"
-		(at 231.14 151.13 90)
+		(at 231.14 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5423,7 +5780,7 @@
 		(uuid "561a6c3b-5f7d-445a-88e9-5745d50a0816")
 	)
 	(label "LED"
-		(at 205.74 151.13 0)
+		(at 205.74 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5445,7 +5802,7 @@
 		(uuid "5a9936f5-b911-4b40-a5ef-c761390ad482")
 	)
 	(label "TXRX1"
-		(at 193.04 151.13 90)
+		(at 193.04 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5465,6 +5822,17 @@
 			(justify left bottom)
 		)
 		(uuid "6162d093-bb3d-4072-8a3a-896154ac4d21")
+	)
+	(label "P2"
+		(at 259.08 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61f3064a-15c0-48d8-8bc2-32db2cdb9c8b")
 	)
 	(label "P7"
 		(at 97.79 185.42 0)
@@ -5499,6 +5867,17 @@
 		)
 		(uuid "63ad2fa8-654c-429a-b9e1-0126890a0dbe")
 	)
+	(label "P22"
+		(at 270.51 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69100bcd-3f8b-41c3-a0b7-f880550caf9b")
+	)
 	(label "LED21"
 		(at 148.59 29.21 270)
 		(fields_autoplaced yes)
@@ -5509,6 +5888,17 @@
 			(justify right bottom)
 		)
 		(uuid "6ef2f347-1535-4520-a952-0d1af24131f5")
+	)
+	(label "P27"
+		(at 281.94 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "736e29cd-9c9e-4159-9e1b-52688c64bf5f")
 	)
 	(label "P9"
 		(at 280.67 116.84 0)
@@ -5533,7 +5923,7 @@
 		(uuid "7ade1619-87ae-42c5-859c-d3a674fd5167")
 	)
 	(label "P20"
-		(at 214.63 151.13 90)
+		(at 214.63 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5544,7 +5934,7 @@
 		(uuid "7bdad65a-3c19-43b7-ad4c-530302ad9062")
 	)
 	(label "P28"
-		(at 238.76 151.13 90)
+		(at 238.76 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5632,7 +6022,7 @@
 		(uuid "894b4b0c-b5c1-4a00-a358-0e75a80537bb")
 	)
 	(label "P9"
-		(at 209.55 151.13 0)
+		(at 209.55 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5709,7 +6099,7 @@
 		(uuid "97ce3cfe-7464-4298-b42c-795aaa2fff28")
 	)
 	(label "P2"
-		(at 187.96 151.13 0)
+		(at 187.96 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5731,7 +6121,7 @@
 		(uuid "9af4bda2-1989-4897-954a-8a230348a62d")
 	)
 	(label "P1"
-		(at 184.15 151.13 0)
+		(at 184.15 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5764,7 +6154,7 @@
 		(uuid "9b75a9e8-1967-4470-8733-eaa2c41ba54e")
 	)
 	(label "P23"
-		(at 226.06 151.13 90)
+		(at 226.06 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5818,8 +6208,19 @@
 		)
 		(uuid "a99df36f-8337-4175-9dfe-5b470760ee4a")
 	)
+	(label "P1"
+		(at 255.27 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aff1bdc0-ce1c-4feb-abf7-cb0969e1b83a")
+	)
 	(label "TXRX2"
-		(at 196.85 151.13 90)
+		(at 196.85 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5828,6 +6229,17 @@
 			(justify left)
 		)
 		(uuid "b0fdd444-f543-4ffd-8f6f-296060a8b7c1")
+	)
+	(label "Vcc"
+		(at 266.7 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b75aa39b-2837-4a77-8b53-cfd3607f6866")
 	)
 	(label "P27"
 		(at 116.84 19.05 0)
@@ -5839,6 +6251,28 @@
 			(justify bottom)
 		)
 		(uuid "b96acd53-4764-4973-991d-224aa26a9adf")
+	)
+	(label "P26"
+		(at 278.13 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb5863b8-b122-4980-bb65-75b8385900f6")
+	)
+	(label "Vcc"
+		(at 259.08 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbf39078-8a48-4144-92fb-25fd90c69c67")
 	)
 	(label "LED7"
 		(at 189.23 106.68 0)
@@ -5907,7 +6341,7 @@
 		(uuid "d070fa51-c314-4822-bb89-0cc3c2cb4154")
 	)
 	(label "P22"
-		(at 222.25 151.13 90)
+		(at 222.25 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5916,6 +6350,28 @@
 			(justify left)
 		)
 		(uuid "d55f209f-9366-479f-afcd-d6147ba1e0d6")
+	)
+	(label "Vcc"
+		(at 274.32 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5681e06-7065-4599-b3c5-3523c362e65a")
+	)
+	(label "Vcc"
+		(at 278.13 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d67f761d-c651-4f47-81eb-add8de1be376")
 	)
 	(label "LED22"
 		(at 115.57 29.21 270)
@@ -5929,7 +6385,7 @@
 		(uuid "eb506f7f-404c-4fe7-bc8e-6b59187da863")
 	)
 	(label "P29"
-		(at 242.57 151.13 90)
+		(at 242.57 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5938,6 +6394,17 @@
 			(justify left)
 		)
 		(uuid "f22ec24a-44e7-4ded-a60c-572bc022b426")
+	)
+	(label "Vcc"
+		(at 270.51 146.05 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f775f823-c985-4e8c-81fc-89c525f2396d")
 	)
 	(label "P9"
 		(at 97.79 190.5 0)
@@ -5972,9 +6439,92 @@
 		)
 		(uuid "fcdbe9cc-7442-4c0a-8243-5e0362fbb980")
 	)
+	(label "P7"
+		(at 262.89 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe4d621c-1fac-4110-8039-0c07a57d95d8")
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 266.7 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0449f90b-2ed3-4bdf-9416-01fc47bbcc81")
+		(property "Reference" "R6"
+			(at 267.97 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 267.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 264.922 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c002a12-ca02-4720-80de-6a25c7013d36")
+		)
+		(pin "1"
+			(uuid "67652000-6bd8-45ae-b80d-05f20b9ee2f1")
+		)
+		(instances
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 158.75 0)
+		(at 180.34 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5983,7 +6533,7 @@
 		(fields_autoplaced yes)
 		(uuid "06677766-0d15-4eb0-97df-14b8923c08d5")
 		(property "Reference" "#PWR055"
-			(at 180.34 165.1 0)
+			(at 180.34 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +6542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 163.83 0)
+			(at 180.34 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 158.75 0)
+			(at 180.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 158.75 0)
+			(at 180.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +6569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 158.75 0)
+			(at 180.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,6 +6648,78 @@
 			(project "schematic"
 				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
 					(reference "MH4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 262.89 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "09a4c0e9-fa6a-463b-aff5-33265cf71051")
+		(property "Reference" "R5"
+			(at 264.16 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 264.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 261.112 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38986a27-d3d1-429d-b30a-9e38362c0fad")
+		)
+		(pin "1"
+			(uuid "77384373-43d3-4efc-a89c-11984ef7d35b")
+		)
+		(instances
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6234,7 +6856,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 226.06 154.94 90)
+		(at 226.06 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6243,7 +6865,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ce0cc6c-0f4a-4212-9818-bffb5838b712")
 		(property "Reference" "D37"
-			(at 228.6 153.6699 90)
+			(at 228.6 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6875,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 228.6 156.2099 90)
+			(at 228.6 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6885,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 226.06 154.94 0)
+			(at 226.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6894,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 226.06 154.94 0)
+			(at 226.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +6903,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 226.06 154.94 0)
+			(at 226.06 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,6 +6921,78 @@
 			(project "schematic"
 				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
 					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 278.13 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "0d09e9e1-2b18-4cc7-8b0f-7a8ce9ca3c38")
+		(property "Reference" "R9"
+			(at 279.4 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 279.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 276.352 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 278.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f93402e7-c09f-4fe9-adba-beac79dfa853")
+		)
+		(pin "1"
+			(uuid "9eff1380-760b-4afa-84a8-68626a164524")
+		)
+		(instances
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6500,6 +7194,78 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 281.94 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "19a8368a-bcd2-4d7f-a96b-66e5ab05fc6a")
+		(property "Reference" "R10"
+			(at 283.21 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 283.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 280.162 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 281.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c65d02b-599e-4d00-93a0-2d3ec4df2a57")
+		)
+		(pin "1"
+			(uuid "2755b3f7-7545-4f29-bb55-4510dc6d276a")
+		)
+		(instances
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 132.08 20.32 0)
 		(unit 1)
@@ -6631,7 +7397,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 231.14 154.94 90)
+		(at 231.14 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6640,7 +7406,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fdcfafe-21d1-4788-b637-21f0d3e8bd05")
 		(property "Reference" "D38"
-			(at 233.68 153.6699 90)
+			(at 233.68 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +7416,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 233.68 156.2099 90)
+			(at 233.68 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +7426,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 231.14 154.94 0)
+			(at 231.14 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +7435,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 231.14 154.94 0)
+			(at 231.14 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +7444,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 231.14 154.94 0)
+			(at 231.14 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,7 +7599,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 158.75 0)
+		(at 218.44 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6842,7 +7608,7 @@
 		(fields_autoplaced yes)
 		(uuid "235860ff-65af-4606-a42a-5843ab4310bd")
 		(property "Reference" "#PWR064"
-			(at 218.44 165.1 0)
+			(at 218.44 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +7617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 163.83 0)
+			(at 218.44 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +7626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 158.75 0)
+			(at 218.44 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +7635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 158.75 0)
+			(at 218.44 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +7644,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 158.75 0)
+			(at 218.44 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +7666,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 184.15 154.94 90)
+		(at 184.15 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6909,7 +7675,7 @@
 		(fields_autoplaced yes)
 		(uuid "238d8b8e-5451-44a8-950b-b2e1cdc29ac7")
 		(property "Reference" "D27"
-			(at 186.69 153.6699 90)
+			(at 186.69 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +7685,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 186.69 156.2099 90)
+			(at 186.69 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +7695,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 184.15 154.94 0)
+			(at 184.15 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +7704,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 184.15 154.94 0)
+			(at 184.15 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7713,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 184.15 154.94 0)
+			(at 184.15 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +7738,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 158.75 0)
+		(at 196.85 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6981,7 +7747,7 @@
 		(fields_autoplaced yes)
 		(uuid "248107dd-715b-4603-8290-27cd71ac9e61")
 		(property "Reference" "#PWR059"
-			(at 196.85 165.1 0)
+			(at 196.85 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6990,7 +7756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 163.83 0)
+			(at 196.85 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,7 +7765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 158.75 0)
+			(at 196.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +7774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 158.75 0)
+			(at 196.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7017,7 +7783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 158.75 0)
+			(at 196.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +8004,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 218.44 154.94 90)
+		(at 218.44 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7247,7 +8013,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e452a4c-bf66-444c-bdf1-318ee8b83abc")
 		(property "Reference" "D35"
-			(at 220.98 153.6699 90)
+			(at 220.98 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +8023,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 220.98 156.2099 90)
+			(at 220.98 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7267,7 +8033,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 218.44 154.94 0)
+			(at 218.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7276,7 +8042,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 218.44 154.94 0)
+			(at 218.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,7 +8051,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 218.44 154.94 0)
+			(at 218.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7441,7 +8207,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 214.63 154.94 90)
+		(at 214.63 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7450,7 +8216,7 @@
 		(fields_autoplaced yes)
 		(uuid "41e52d49-6641-4aa9-9675-f7d51d3ab030")
 		(property "Reference" "D34"
-			(at 217.17 153.6699 90)
+			(at 217.17 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +8226,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 217.17 156.2099 90)
+			(at 217.17 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +8236,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 214.63 154.94 0)
+			(at 214.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +8245,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 214.63 154.94 0)
+			(at 214.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +8254,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 214.63 154.94 0)
+			(at 214.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7637,6 +8403,78 @@
 			(project "schematic"
 				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 274.32 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "440c48ae-84ea-4e31-aef1-d7cd914d2bc5")
+		(property "Reference" "R8"
+			(at 275.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 275.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 272.542 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5de6d824-8d92-4417-99a0-0b6c756c002a")
+		)
+		(pin "1"
+			(uuid "bde6b434-edf2-462f-8d2e-d9911a1c662b")
+		)
+		(instances
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8373,7 +9211,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 238.76 154.94 90)
+		(at 238.76 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8382,7 +9220,7 @@
 		(fields_autoplaced yes)
 		(uuid "60d0f266-bab8-44f7-8cc0-12dcac8d74bb")
 		(property "Reference" "D40"
-			(at 241.3 153.6699 90)
+			(at 241.3 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +9230,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 241.3 156.2099 90)
+			(at 241.3 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +9240,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 238.76 154.94 0)
+			(at 238.76 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +9249,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 238.76 154.94 0)
+			(at 238.76 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +9258,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 238.76 154.94 0)
+			(at 238.76 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,7 +9613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 158.75 0)
+		(at 234.95 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8784,7 +9622,7 @@
 		(fields_autoplaced yes)
 		(uuid "71cae0ed-3607-473f-a0cb-e2577fac57e2")
 		(property "Reference" "#PWR068"
-			(at 234.95 165.1 0)
+			(at 234.95 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +9631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 163.83 0)
+			(at 234.95 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8802,7 +9640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 158.75 0)
+			(at 234.95 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +9649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 158.75 0)
+			(at 234.95 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +9658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 158.75 0)
+			(at 234.95 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8972,7 +9810,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 158.75 0)
+		(at 187.96 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8981,7 +9819,7 @@
 		(fields_autoplaced yes)
 		(uuid "76d36655-b7ad-4fc7-bc5a-0b25d33db810")
 		(property "Reference" "#PWR057"
-			(at 187.96 165.1 0)
+			(at 187.96 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8990,7 +9828,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 163.83 0)
+			(at 187.96 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +9837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 158.75 0)
+			(at 187.96 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +9846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 158.75 0)
+			(at 187.96 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +9855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 158.75 0)
+			(at 187.96 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,7 +10267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 158.75 0)
+		(at 231.14 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9438,7 +10276,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e8e43be-9802-4ce5-95a6-b498aa01c05c")
 		(property "Reference" "#PWR067"
-			(at 231.14 165.1 0)
+			(at 231.14 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +10285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 163.83 0)
+			(at 231.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9456,7 +10294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 158.75 0)
+			(at 231.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9465,7 +10303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 158.75 0)
+			(at 231.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,7 +10312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 158.75 0)
+			(at 231.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +10464,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 196.85 154.94 90)
+		(at 196.85 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9635,7 +10473,7 @@
 		(fields_autoplaced yes)
 		(uuid "881218c1-8239-4485-9568-035c5651f828")
 		(property "Reference" "D30"
-			(at 199.39 153.6699 90)
+			(at 199.39 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,7 +10483,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 199.39 156.2099 90)
+			(at 199.39 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +10493,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 196.85 154.94 0)
+			(at 196.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,7 +10502,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 196.85 154.94 0)
+			(at 196.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +10511,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 196.85 154.94 0)
+			(at 196.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9698,7 +10536,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 158.75 0)
+		(at 226.06 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9707,7 +10545,7 @@
 		(fields_autoplaced yes)
 		(uuid "912a9f70-15b8-4814-bffb-5d545fc06e5d")
 		(property "Reference" "#PWR066"
-			(at 226.06 165.1 0)
+			(at 226.06 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9716,7 +10554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 163.83 0)
+			(at 226.06 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,7 +10563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 158.75 0)
+			(at 226.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,7 +10572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 158.75 0)
+			(at 226.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +10581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 158.75 0)
+			(at 226.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9765,7 +10603,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 222.25 154.94 90)
+		(at 222.25 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9774,7 +10612,7 @@
 		(fields_autoplaced yes)
 		(uuid "91c293f1-dec7-4f02-809e-ccbad1d4a079")
 		(property "Reference" "D36"
-			(at 224.79 153.6699 90)
+			(at 224.79 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +10622,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 224.79 156.2099 90)
+			(at 224.79 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,7 +10632,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 222.25 154.94 0)
+			(at 222.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9803,7 +10641,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 222.25 154.94 0)
+			(at 222.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,7 +10650,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 222.25 154.94 0)
+			(at 222.25 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,7 +10807,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 158.75 0)
+		(at 242.57 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9978,7 +10816,7 @@
 		(fields_autoplaced yes)
 		(uuid "9810e8a4-f6e2-45a3-bbff-939f1984b04a")
 		(property "Reference" "#PWR070"
-			(at 242.57 165.1 0)
+			(at 242.57 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +10825,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 163.83 0)
+			(at 242.57 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9996,7 +10834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 158.75 0)
+			(at 242.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +10843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 158.75 0)
+			(at 242.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +10852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 158.75 0)
+			(at 242.57 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +10939,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 201.93 154.94 90)
+		(at 201.93 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10110,7 +10948,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ec91f56-8aa1-4fe4-a812-1d2088cbab29")
 		(property "Reference" "D31"
-			(at 204.47 153.6699 90)
+			(at 204.47 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10958,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 204.47 156.2099 90)
+			(at 204.47 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10968,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 201.93 154.94 0)
+			(at 201.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10977,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 201.93 154.94 0)
+			(at 201.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10148,7 +10986,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 201.93 154.94 0)
+			(at 201.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +11011,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 187.96 154.94 90)
+		(at 187.96 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10182,7 +11020,7 @@
 		(fields_autoplaced yes)
 		(uuid "9efd23ba-ae7d-4e0d-b689-8798790cea8e")
 		(property "Reference" "D28"
-			(at 190.5 153.6699 90)
+			(at 190.5 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10192,7 +11030,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 190.5 156.2099 90)
+			(at 190.5 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10202,7 +11040,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 187.96 154.94 0)
+			(at 187.96 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +11049,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 187.96 154.94 0)
+			(at 187.96 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10220,7 +11058,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 187.96 154.94 0)
+			(at 187.96 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,6 +11140,78 @@
 			(project "schematic"
 				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
 					(reference "MH6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 259.08 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a3528d96-e1e1-4aaf-9092-21973ffac9dd")
+		(property "Reference" "R4"
+			(at 260.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 260.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 257.302 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "142c23ea-3ee7-4cc5-9edb-4f1ab103a9b7")
+		)
+		(pin "1"
+			(uuid "a987d143-d743-4329-82e2-8b52b332bd74")
+		)
+		(instances
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10439,7 +11349,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 158.75 0)
+		(at 238.76 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10448,7 +11358,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa0acc01-7a19-4847-af13-fd118b2826a0")
 		(property "Reference" "#PWR069"
-			(at 238.76 165.1 0)
+			(at 238.76 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +11367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 163.83 0)
+			(at 238.76 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10466,7 +11376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 158.75 0)
+			(at 238.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10475,7 +11385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 158.75 0)
+			(at 238.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +11394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 158.75 0)
+			(at 238.76 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +11416,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 205.74 154.94 90)
+		(at 205.74 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10515,7 +11425,7 @@
 		(fields_autoplaced yes)
 		(uuid "acaaf924-04df-4e06-b342-1d863ae0a315")
 		(property "Reference" "D32"
-			(at 208.28 153.6699 90)
+			(at 208.28 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +11435,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 208.28 156.2099 90)
+			(at 208.28 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,7 +11445,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 205.74 154.94 0)
+			(at 205.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,7 +11454,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 205.74 154.94 0)
+			(at 205.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,7 +11463,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 205.74 154.94 0)
+			(at 205.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +11618,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 242.57 154.94 90)
+		(at 242.57 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10717,7 +11627,7 @@
 		(fields_autoplaced yes)
 		(uuid "b27316c8-8d1d-4649-a529-d999f54e54db")
 		(property "Reference" "D41"
-			(at 245.11 153.6699 90)
+			(at 245.11 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,7 +11637,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 245.11 156.2099 90)
+			(at 245.11 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10737,7 +11647,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 242.57 154.94 0)
+			(at 242.57 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +11656,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 242.57 154.94 0)
+			(at 242.57 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +11665,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 242.57 154.94 0)
+			(at 242.57 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10849,7 +11759,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 158.75 0)
+		(at 193.04 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10858,7 +11768,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5243be4-9e8e-4aac-8fc2-0fc1e4008442")
 		(property "Reference" "#PWR058"
-			(at 193.04 165.1 0)
+			(at 193.04 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10867,7 +11777,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 163.83 0)
+			(at 193.04 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +11786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 158.75 0)
+			(at 193.04 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,7 +11795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 158.75 0)
+			(at 193.04 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10894,7 +11804,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 158.75 0)
+			(at 193.04 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10981,7 +11891,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 209.55 154.94 90)
+		(at 209.55 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10990,7 +11900,7 @@
 		(fields_autoplaced yes)
 		(uuid "b74ea7e8-423f-4ab2-b10f-7760159d6401")
 		(property "Reference" "D33"
-			(at 212.09 153.6699 90)
+			(at 212.09 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,7 +11910,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 212.09 156.2099 90)
+			(at 212.09 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11010,7 +11920,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 209.55 154.94 0)
+			(at 209.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11019,7 +11929,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 209.55 154.94 0)
+			(at 209.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11028,7 +11938,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 209.55 154.94 0)
+			(at 209.55 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +12093,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 158.75 0)
+		(at 214.63 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11192,7 +12102,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc46d8d3-233e-46c8-babf-32458e63c8cf")
 		(property "Reference" "#PWR063"
-			(at 214.63 165.1 0)
+			(at 214.63 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +12111,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 163.83 0)
+			(at 214.63 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +12120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 158.75 0)
+			(at 214.63 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +12129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 158.75 0)
+			(at 214.63 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11228,7 +12138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 158.75 0)
+			(at 214.63 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11250,7 +12160,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 234.95 154.94 90)
+		(at 234.95 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11259,7 +12169,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd00e916-5758-4841-a45d-ad011758f9e4")
 		(property "Reference" "D39"
-			(at 237.49 153.6699 90)
+			(at 237.49 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11269,7 +12179,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 237.49 156.2099 90)
+			(at 237.49 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +12189,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 234.95 154.94 0)
+			(at 234.95 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +12198,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 234.95 154.94 0)
+			(at 234.95 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11297,7 +12207,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 234.95 154.94 0)
+			(at 234.95 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +12232,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 158.75 0)
+		(at 209.55 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11331,7 +12241,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6765163-49fe-48ba-97d4-e31716780b59")
 		(property "Reference" "#PWR062"
-			(at 209.55 165.1 0)
+			(at 209.55 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,7 +12250,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 163.83 0)
+			(at 209.55 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11349,7 +12259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 158.75 0)
+			(at 209.55 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11358,7 +12268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 158.75 0)
+			(at 209.55 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11367,7 +12277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 158.75 0)
+			(at 209.55 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,7 +12693,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 158.75 0)
+		(at 184.15 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11792,7 +12702,7 @@
 		(fields_autoplaced yes)
 		(uuid "d66f6b78-ead2-44c5-aa19-a52c26f97f5c")
 		(property "Reference" "#PWR056"
-			(at 184.15 165.1 0)
+			(at 184.15 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11801,7 +12711,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 163.83 0)
+			(at 184.15 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11810,7 +12720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 158.75 0)
+			(at 184.15 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11819,7 +12729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 158.75 0)
+			(at 184.15 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11828,7 +12738,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 158.75 0)
+			(at 184.15 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12027,7 +12937,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 247.65 154.94 90)
+		(at 247.65 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12036,7 +12946,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd7cdd0b-1025-4d5e-95a0-fcb46bbf87fb")
 		(property "Reference" "D42"
-			(at 250.19 153.6699 90)
+			(at 250.19 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12956,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 250.19 156.2099 90)
+			(at 250.19 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12056,7 +12966,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 247.65 154.94 0)
+			(at 247.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12065,7 +12975,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 247.65 154.94 0)
+			(at 247.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12074,7 +12984,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 247.65 154.94 0)
+			(at 247.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12423,7 +13333,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 158.75 0)
+		(at 205.74 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12432,7 +13342,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4f146ab-2ae4-4849-b192-d9fd6a952e08")
 		(property "Reference" "#PWR061"
-			(at 205.74 165.1 0)
+			(at 205.74 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12441,7 +13351,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 163.83 0)
+			(at 205.74 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12450,7 +13360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 158.75 0)
+			(at 205.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,7 +13369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 158.75 0)
+			(at 205.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +13378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 158.75 0)
+			(at 205.74 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12880,7 +13790,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 193.04 154.94 90)
+		(at 193.04 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12889,7 +13799,7 @@
 		(fields_autoplaced yes)
 		(uuid "effbac32-d89c-490b-a4f5-563e50ff4c96")
 		(property "Reference" "D29"
-			(at 195.58 153.6699 90)
+			(at 195.58 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12899,7 +13809,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 195.58 156.2099 90)
+			(at 195.58 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12909,7 +13819,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 193.04 154.94 0)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12918,7 +13828,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 193.04 154.94 0)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +13837,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 193.04 154.94 0)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12952,7 +13862,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 158.75 0)
+		(at 201.93 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12961,7 +13871,7 @@
 		(fields_autoplaced yes)
 		(uuid "f038e8a7-12b7-477d-9468-08f9fe16f167")
 		(property "Reference" "#PWR060"
-			(at 201.93 165.1 0)
+			(at 201.93 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12970,7 +13880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 163.83 0)
+			(at 201.93 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12979,7 +13889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 158.75 0)
+			(at 201.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12988,7 +13898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 158.75 0)
+			(at 201.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12997,7 +13907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 158.75 0)
+			(at 201.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13019,7 +13929,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 158.75 0)
+		(at 222.25 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13028,7 +13938,7 @@
 		(fields_autoplaced yes)
 		(uuid "f04f00b2-d277-4900-b9f2-2a0dfb18cb1f")
 		(property "Reference" "#PWR065"
-			(at 222.25 165.1 0)
+			(at 222.25 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13037,7 +13947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 163.83 0)
+			(at 222.25 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13046,7 +13956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 158.75 0)
+			(at 222.25 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13055,7 +13965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 158.75 0)
+			(at 222.25 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13064,7 +13974,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 158.75 0)
+			(at 222.25 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,6 +13989,78 @@
 			(project "schematic"
 				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 255.27 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f0c8ad0d-1787-454d-8c66-5ce0df653583")
+		(property "Reference" "R11"
+			(at 256.54 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 256.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 253.492 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 255.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af0e0a2d-3ea1-4bb6-bed4-df9e70d6b6cd")
+		)
+		(pin "1"
+			(uuid "11eef7fd-2528-4aa3-bb42-bbde85f5ebe0")
+		)
+		(instances
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13151,7 +14133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 158.75 0)
+		(at 247.65 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13160,7 +14142,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb37c0da-7cec-41ac-9c52-286fb2521698")
 		(property "Reference" "#PWR071"
-			(at 247.65 165.1 0)
+			(at 247.65 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13169,7 +14151,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 163.83 0)
+			(at 247.65 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13178,7 +14160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 158.75 0)
+			(at 247.65 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13187,7 +14169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 158.75 0)
+			(at 247.65 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13196,7 +14178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 158.75 0)
+			(at 247.65 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13218,7 +14200,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 180.34 154.94 90)
+		(at 180.34 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13227,7 +14209,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcc433b1-6fd1-4671-91ee-fe22de8b906c")
 		(property "Reference" "D26"
-			(at 182.88 153.6699 90)
+			(at 182.88 154.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13237,7 +14219,7 @@
 			)
 		)
 		(property "Value" "ESD5Z5.0C"
-			(at 182.88 156.2099 90)
+			(at 182.88 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13247,7 +14229,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 180.34 154.94 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13256,7 +14238,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 180.34 154.94 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13265,7 +14247,7 @@
 			)
 		)
 		(property "Description" "ESD protection diode, 5Vrwm, SOD-523"
-			(at 180.34 154.94 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13283,6 +14265,78 @@
 			(project "schematic"
 				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
 					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 270.51 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "fedf3327-1852-4348-a2bb-41242eb24a12")
+		(property "Reference" "R7"
+			(at 271.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "10k"
+			(at 271.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 268.732 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d657f87c-62d0-47b5-af4f-ae70aeed5e0a")
+		)
+		(pin "1"
+			(uuid "6b1dc45d-595d-408c-a702-d2a4488d80e8")
+		)
+		(instances
+			(project "schematic"
+				(path "/f59ff9a4-d8e4-4a48-98cb-573a375605de"
+					(reference "R7")
 					(unit 1)
 				)
 			)
